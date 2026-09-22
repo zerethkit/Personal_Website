@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zereth's website — portfolio and notes</title>
+  <meta name="description" content="Portfolio and writing by a second-year computer science student. Java, algorithms, and notes on what broke along the way.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#top" aria-current="page">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="top">
+      <div class="shell">
+        <img class="hero__panel" src="cyberpunk.jpg">
+
+        <div class="hero__intro centered">
+          <h1 class="hero__name">Zereth Kit</h1>
+          <p class="lede">Second-year computer science student.</p>
+          <a class="link" href="#projects">See recent work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="shell centered">
+        <h2 id="about-title">About me</h2>
+
+        <div class="about__body">
+          <p>Hello! I am a year 2 Computer Science student studying at National University of Singapore. When I need a tool,
+    I like to build my own rather than use what's already out there. That's how I ended up building a university modules tracker. 
+    
+    <p>Outside of school, I enjoy running, playing football, and travelling. I also like to have a game of poker or mahjong with my friends.
+      I am also learning Korean, as I believe that learning a new language is a great way to understand a new culture and meet new people.</p> 
+  
+        </div>
+        <p class="about__links">
+          <a class="link link--sm" href="https://github.com/zerethkit">GitHub</a>
+          <a class="link link--sm" href="https://www.linkedin.com/in/zerethkit">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="shell">
+        <div class="section__head centered">
+          <h2 id="projects-title">Projects</h2>
+          <p class="lede">Just some of the things I've built.</p>
+        </div>
+
+        <ul class="card-grid">
+          <li>
+            <article class="card">
+              <p class="meta"><time datetime="2026-07">July 2026</time></p>
+              <h3>University Modules Tracker</h3>
+              <p>A web app that keeps my university modules, grades and assignment deadlines in one place.</p>
+              <a class="link link--sm card__link" href="https://university-tracker-two.vercel.app/">View the website</a>
+            </article>
+          </li>
+
+          <li>
+            <article class="card">
+              <p class="meta"><time datetime="2025-11">September 2025</time></p>
+              <h3>Profit and Loss Tracker</h3>
+              <p>A tool that tracks my wins and losses across games like poker and mahjong.</p>
+              <a class="link link--sm card__link" href="#">View the website</a>
+            </article>
+          </li>  
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== BLOG ===================== -->
+    <section class="section blog" id="blog" aria-labelledby="blog-title">
+      <div class="shell">
+        <div class="section__head centered">
+          <h2 id="blog-title">Blogs</h2>
+          <p class="lede">Short stories about my life!</p>
+        </div>
+
+        <ul class="card-grid">
+          <li>
+            <article class="card">
+              <p class="meta"><time datetime="2026-08-22">22 August 2026</time></p>
+              <h3>My experience in Winter School</h3>
+              <p>I spent Christmas and New Year in Seoul, taking calculus at Korea University's winter school. Here's what the classes were like, and what I got up to outside them.</p>
+              <a class="link link--sm card__link" href="blog/winter-school.html">Read more</a>
+            </article>
+          </li>
+
+          <li>
+            <article class="card">
+              <p class="meta"><time datetime="2026-08-04">4 August 2026</time></p>
+              <h3>Trying to beat the odds at the casino</h3>
+              <p>What happened when I tested what I know about probability at a casino.</p>
+              <a class="link link--sm card__link" href="#">Read more</a>
+            </article>
+          </li>
+
+          
+        </ul>
+
+       <!--<p class="blog__more"><a class="link" href="#">All posts</a></p>--> 
+      </div>
+    </section>
+  </main>
+</body>
+</html>
